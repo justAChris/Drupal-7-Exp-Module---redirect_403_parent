@@ -1,0 +1,7 @@
+name = Redirect 403 to Parent
+description = Redirect anonymous users from 403 Access Denied pages to the desired node's parent in path.
+core = 7.x
+
+files[] = redirect_403_parent.install
+
+configure = admin/config/system/site-information
